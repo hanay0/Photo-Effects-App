@@ -1,0 +1,112 @@
+
+/*some resets for my css*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    font-size:10px;
+}
+/* start body styling */
+body{
+    background:#576574;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Staatliches', cursive;
+}
+
+main{
+    flex: 3;
+}
+
+aside{
+    flex: 1;
+    margin-left: 0.5rem;
+}
+
+/*start styling control buttons*/
+button{
+    background: #1dd1a1;
+    padding: 1.6rem 0 1.6rem 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    border:none;
+    border:1px solid #10ac84;
+    text-align: left;
+    transition:background .3s ease;
+    font-family: 'Staatliches', cursive;
+}
+button:hover{
+    background:#6be2c2 ;
+}
+
+/*start styling effects section*/
+.effects{
+    display: flex;
+    flex-direction: column;
+}
+
+.controls{
+    display:flex
+}
+.controls > button{
+    flex:1;
+    border-bottom:none;
+    text-align:center;
+    background-color: #222f3e;
+    padding: 1.6rem 0;
+}
+.controls button:first-of-type:hover{
+    background-color: #ee5253;
+}
+.controls button:last-of-type:hover{
+    background-color: #48dbfb;
+}
+
+input[type="file"]{
+    display: none;
+}
+label{
+    color:#FFFFFF;
+    height:60px;
+    width:150px;
+    background-color:#ff9f43;
+    margin:auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+label i{
+    padding-right: 10px;
+}
+
+.input-wrapper{
+    background-color: #8395a7;
+    padding:1.6rem;
+    font-family: 'Staatliches', cursive;
+}
+
+canvas{
+    width: 100%;
+    border:1px dashed #ee5253
+}
+
+@media(min-width:1000px){
+    body{
+        flex-direction: row;
+    }
+}
+

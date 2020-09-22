@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Photo effects app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    </head>
+    <body>
+        
+    </body>
+
+    <main>
+        <canvas id="canvas"></canvas>
+    </main>
+     <aside>
+         <div class="input-wrapper">
+            <input type="file" id="fileUploader" accept="image/*">
+             <label for="fileUploader">
+                <i class="fas fa-file-upload"></i>
+                 select file</label>
+             
+            </div>
+
+            <!-- effects section -->
+            <div class="effects">
+                <button>Greyscale</button>
+                <button>Sepia</button>
+                <button>Invert</button>
+                <button>RGB - RBG</button>
+                <button>RGB - BGR</button>
+                <button>RGB - GBR</button>
+                <button>RGB - GRB</button>
+            </div>
+
+            <!-- controls section -->
+            <div class="controls">
+                <button>Clear</button>
+                <button>Download</button>
+            </div>
+     </aside>   
+        
+       <!--  <script src="plugin.js" async defer></script> -->
+       <script src="plugin.js"></script>
+    </body>
+</html>
