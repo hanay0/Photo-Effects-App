@@ -88,6 +88,7 @@ label{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius:10px
 }
 label i{
     padding-right: 10px;
@@ -101,7 +102,6 @@ label i{
 
 canvas{
     width: 100%;
-    border:1px dashed #ee5253
 }
 
 @media(min-width:1000px){
